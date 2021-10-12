@@ -1,1 +1,97 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+body {
+    padding: 0 0 0 0px;
+    margin: 0 0 0 0px;
+    box-sizing: border-box;
+}
+
+.navigation {
+    padding: 20px 10px 20px 10px;
+    color: #F58220;
+    background-color: #045372;
+    /* color: #00A5E4; */
+    /* background-color: rgb(2, 71, 12); */
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand {
+    font-size: 25px;
+    font-weight: bold;
+    flex: 1 1 auto;
+    margin-left: 40px;
+}
+
+.from {
+    font-weight: bold;
+    font-size: 19px;
+    margin-right: 40px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.form-body {
+    width: 470px;
+    margin: 50px auto;
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 2 2 2 2px #aaa;
+}
+
+.form-body > h2 {
+    font-size: 30px;
+    color: #F58220;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    padding: 3px;
+    font-size: 19px;
+}
+
+.form-group > label {
+    display: block;
+    font-size: 14px;
+    color: rgb(20, 20, 20);
+}
+
+.form-group > input {
+    width: 95%;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid #c4cdd5;
+    box-shadow: 0 1px 0 0 rgb(22 29 37 / 5%);
+    transition: border-color ease-in-out .3s, box-shadow ease-in-out .3s;
+    padding: 10px 12px;
+    font-size: 14px;
+    line-height: 1.43;
+    display: block;
+}
+
+.form-group > .register__btn {
+    width: 100%;
+    display: block;
+    color: #fff;
+    background-color: #045372;
+    padding: 5px 20px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #045372;
+    border-radius: 5px;
+    -ms-flex-align: center;
+    cursor: pointer;
+}
+
+.register__btn:hover {
+    background-color: #033447;
+}
