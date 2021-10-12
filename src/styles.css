@@ -40,7 +40,7 @@ body {
 
 .form-body {
     width: 470px;
-    margin: 50px auto;
+    margin: 10px auto;
     padding: 20px;
     padding-top: 10px;
     border-radius: 10px;
@@ -65,6 +65,19 @@ body {
 }
 
 .form-group > input {
+    width: 95%;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid #c4cdd5;
+    box-shadow: 0 1px 0 0 rgb(22 29 37 / 5%);
+    transition: border-color ease-in-out .3s, box-shadow ease-in-out .3s;
+    padding: 10px 12px;
+    font-size: 14px;
+    line-height: 1.43;
+    display: block;
+}
+
+.form-group > textarea {
     width: 95%;
     margin-top: 10px;
     border-radius: 3px;

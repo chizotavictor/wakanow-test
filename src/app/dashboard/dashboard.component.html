@@ -1,0 +1,26 @@
+<div class="panel">
+    <div class="row">
+        <h2 class="welcome">Welcome {{currentUsername}},</h2>
+    </div>
+
+    <div class="row">
+        <div class="flex">
+            <h3>Task records</h3>
+            <a routerLink="/add-task" style="margin-top: 20px">Add Task</a>
+        </div>
+        <table class="table" border=1> 
+            <tr class="table__heading">
+                <th>S/N</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Action</th>
+            </tr>
+            <tr *ngIf="task">
+                <td>1</td>
+                <td>{{task.title}}</td>
+                <td>{{task.description}}</td>
+                <td><a href="/add-task">Update</a></td>
+            </tr>
+        </table>
+    </div>
+</div>

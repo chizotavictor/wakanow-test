@@ -1,0 +1,26 @@
+.panel {
+    width: 650px;
+    margin: 50px auto;
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 2 2 2 2px #aaa;
+}
+
+.welcome {
+    color: green;
+}
+
+.row {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table__heading {
+    background: #045372;
+    color: white;
+}
